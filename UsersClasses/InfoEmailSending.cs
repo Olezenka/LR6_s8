@@ -40,18 +40,5 @@ namespace LR5_s8.UsersClasses
 
 
     }
-    public class StringPair
-    {
-        public StringPair(string emailAdress, string name)
-        {
-            EmailAdress = String.IsNullOrWhiteSpace(emailAdress) ?
-                throw new Exception("нет пробелам и пустате") :
-                emailAdress;
-            Name = String.IsNullOrWhiteSpace(name) ?
-            throw new Exception("нет пробелам и пустате") :
-            name;
-        }
-        public string EmailAdress { get; set; }
-        public string Name { get; set; }
-    }
+
 }
