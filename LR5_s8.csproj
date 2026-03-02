@@ -54,7 +54,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsersClasses\InfoEmailSending.cs" />
+    <Compile Include="UsersClasses\EmailsTypes.cs" />
+    <Compile Include="UsersClasses\InfoEmail.cs" />
     <Compile Include="UsersClasses\SendingEmail.cs" />
     <Compile Include="UsersClasses\StringPair.cs" />
     <EmbeddedResource Include="MainForm.resx">

@@ -50,8 +50,8 @@ namespace LR5_s8
             string body = $"{DateTime.Now} \n" + $"{Dns.GetHostName()} \n" + $"{Dns.GetHostAddresses(Dns.GetHostName()).First()} \n" +
                 $"{textBoxBody.Text}";
 
-            InfoEmailSending info =
-                new InfoEmailSending(smtp, fromInfo, password, toInfo, subject, body);
+            InfoEmail info =
+                new InfoEmail(smtp, fromInfo, password, toInfo, subject, body);
             SendingEmail sendingEmail = new SendingEmail(info);
             sendingEmail.Send();
 

@@ -10,8 +10,8 @@ namespace LR5_s8.UsersClasses
 {
     internal class SendingEmail
     {
-        private InfoEmailSending InfoEmailSending { get; set; }
-        public SendingEmail(InfoEmailSending infoEmailSending) 
+        private InfoEmail InfoEmailSending { get; set; }
+        public SendingEmail(InfoEmail infoEmailSending) 
         {
             InfoEmailSending = infoEmailSending
                 ?? throw new ArgumentNullException(nameof(infoEmailSending));
