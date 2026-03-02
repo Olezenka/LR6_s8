@@ -57,6 +57,7 @@
     <Compile Include="UsersClasses\EmailsTypes.cs" />
     <Compile Include="UsersClasses\InfoEmail.cs" />
     <Compile Include="UsersClasses\InfoGMail.cs" />
+    <Compile Include="UsersClasses\InfoMailRu.cs" />
     <Compile Include="UsersClasses\SendingEmail.cs" />
     <Compile Include="UsersClasses\StringPair.cs" />
     <EmbeddedResource Include="MainForm.resx">
